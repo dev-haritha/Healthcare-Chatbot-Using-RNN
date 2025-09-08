@@ -2,7 +2,7 @@
 
 A web-based diagnostic chatbot that processes user-described symptoms and engages in a conversational Q&A to suggest possible conditions. Built with a custom Recurrent Neural Network (RNN) model and a Flask REST API backend.
 
-## 🚀 Features
+Features
 
 - **Conversational Interface**: Interactive chat interface that asks follow-up questions based on initial symptoms.
 - **RNN-Powered Engine**: A Recurrent Neural Network model trained from scratch to understand symptom-disease relationships.
@@ -10,7 +10,7 @@ A web-based diagnostic chatbot that processes user-described symptoms and engage
 - **MySQL Integration**: Efficient storage and retrieval of chat logs and user interactions.
 - **Modular OOP Design**: Codebase structured using Object-Oriented Principles for maintainability and scalability.
 
-## 🛠️ Tech Stack
+Tech Stack
 
 *   **Backend:** Python, Flask
 *   **Machine Learning:** PyTorch, NumPy, Pandas
@@ -18,7 +18,7 @@ A web-based diagnostic chatbot that processes user-described symptoms and engage
 *   **Frontend (Optional):** HTML, CSS, JavaScript (if you have a simple UI)
 *   **Version Control:** Git, GitHub
 
-## 📦 Installation & Setup
+Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -47,10 +47,9 @@ A web-based diagnostic chatbot that processes user-described symptoms and engage
     ```
     The app will be running at `http://localhost:5000`.
 
-## 🧠 Model Training (If Applicable)
+Model Training (If Applicable)
 
 The RNN model was trained on a dataset of symptoms and diseases.
 1.  The training script is located in `training/train.py`.
 2.  The model weights are saved to `model.pth` (add this file to `.gitignore` if it's large).
 
-## 📁 Project Structure
